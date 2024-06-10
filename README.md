@@ -1,3 +1,22 @@
+# Quick Typescript / Pnpm / Sqlite setup
+
+## Install
+
+```bash
+npx degit https://github.com/0b1kn00b/strapi-typescript-pnpm 
+cd strapi-typescript-pnpm && pnpm install
+```
+
+## Details
+
+Pnpm support relies on `.npmrc` file 
+
+```
+node-linker=hoisted
+shamefully-hoist=false
+dedupe-direct-deps=true
+```
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
